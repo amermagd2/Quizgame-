@@ -1,0 +1,127 @@
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    transition: background 0.7s ease-in-out;
+}
+
+.quiz-container {
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+h1 {
+    font-size: 28px;
+    color: #2E7D32;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.quiz-image {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#question {
+    font-size: 22px;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    background: linear-gradient(to bottom, #4CAF50, #2E7D32);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#options button:hover {
+    background: linear-gradient(to bottom, #45a049, #1B5E20);
+    transform: scale(1.05);
+}
+
+#feedback {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#next-btn, #back-btn {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#next-btn {
+    background: linear-gradient(to bottom, #007BFF, #0056b3);
+    color: white;
+}
+
+#back-btn {
+    background: linear-gradient(to bottom, #FF5722, #BF360C);
+    color: white;
+}
+
+#next-btn:hover {
+    background: linear-gradient(to bottom, #0056b3, #003d82);
+    transform: scale(1.05);
+}
+
+#back-btn:hover {
+    background: linear-gradient(to bottom, #BF360C, #8E2500);
+    transform: scale(1.05);
+}
+
+.ask-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px;
+    background: linear-gradient(to bottom, #009688, #00796B);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.ask-button:hover {
+    background: linear-gradient(to bottom, #00796B, #004D40);
+    transform: scale(1.05);
+}

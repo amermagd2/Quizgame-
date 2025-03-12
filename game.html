@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="quiz-body">
+
+    <div class="quiz-container">
+        <h1 id="quiz-title">Islamic Quiz</h1>
+        <img src="quiz-image.jpg" alt="Quiz Image" class="quiz-image">
+        <p id="question">Loading question...</p>
+        <div id="options"></div>
+        <p id="feedback"></p>
+        
+        <div class="buttons-container">
+            <button id="back-btn" onclick="previousQuestion()">◀ Back</button>
+            <button id="next-btn" onclick="nextQuestion()">Next ▶</button>
+        </div>
+
+        <a href="https://wa.me/201280497503" class="ask-button" id="ask-btn" style="display:none;">اسأل سؤالًا عن الإسلام</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
